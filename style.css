@@ -8,6 +8,8 @@ html {
   overflow: hidden;
 }
 
+body {}
+
 .confirm {
   width: 50%;
   position: absolute;
