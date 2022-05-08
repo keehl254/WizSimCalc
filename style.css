@@ -1,0 +1,131 @@
+html {
+  background-color: #00AA55;
+  background-image: url('https://i.ibb.co/gMdz4qN/Roblox-Screen-Shot20220507-213148031.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.confirm {
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  transform: translateY(-50%) translateX(50%);
+  -ms-transform: translateY(-50%);
+  box-shadow: 0 0 30px 2px #000000;
+  background: #232323 url('https://i.ibb.co/Wnj6kC7/specs.png') repeat !important;
+  border-radius: 15px;
+  border-color: #1b2a35;
+  border-width: 2px;
+  border-style: solid;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: 'Balthazar';
+  text-shadow: 2px 2px #000000;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-family: 'Balthazar';
+  text-shadow: 2px 2px #000000;
+}
+
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+
+#desired-level {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 150px;
+  min-height: 50px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#desired-level,
+#desired-level * {
+  box-sizing: border-box;
+}
+
+#desired-level button {
+  outline: none;
+  -webkit-appearance: none;
+  background-color: transparent;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Balthazar';
+  text-shadow: 2px 2px #000000;
+}
+
+#desired-level button:before,
+#desired-level button:after {
+  display: inline-block;
+  position: absolute;
+  content: '';
+  width: 1rem;
+  height: 2px;
+  background-color: #212121;
+  transform: translate(-50%, -50%);
+}
+
+#desired-level button.plus:after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+#desired-level input[type=number] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 150px;
+  min-height: 50px;
+
+  background-color: #676767;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Balthazar';
+  text-shadow: 2px 2px #000000;
+}
+
+#mana-well {
+  color: #2e8cfe;
+  font-family: 'Balthazar';
+  text-shadow: 2px 2px #000000;
+  font-size: 110px;
+  top:40%;
+  
+  position: absolute;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  
+  text-align: center;
+}

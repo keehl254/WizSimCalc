@@ -1,0 +1,27 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Balthazar">
+    <link rel="stylesheet" href="style.css">
+    <script src="calc.js"></script>
+  </head>
+
+  <body>
+    <div class="confirm">
+      <h1>Wizard Sim Level Calculator</h1>
+      <h3>Enter your desired level below</h3>
+      <br>
+      <div id="desired-level">
+        <button onclick="this.parentNode.querySelector('input[type=number]').stepDown(); adjustManaWell()">-</button>
+        <input id="level-input" min="0" max="150" name="quantity" value="1" type="number" onchange="adjustManaWell()">
+        <button onclick="this.parentNode.querySelector('input[type=number]').stepUp(); adjustManaWell()" class="plus">+</button>
+      </div>
+      <br>
+    </div>
+
+
+    <div id="mana-well">MANA WELL</div>
+
+  </body>
+
+</html>
